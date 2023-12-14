@@ -1,0 +1,105 @@
+.main {
+  background: var(--gray-600);
+  height: 100vh;
+}
+
+.header {
+  background: var(--gray-700);
+  height: 12.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.headerNewTaskWrapper {
+  position: absolute;
+  bottom: -27px;
+
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  height: 54px;
+}
+
+.headerNewTaskInput {
+  max-width: 638px;
+  width: 100%;
+  padding: 16px;
+  height: 100%;
+
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+  background: var(--gray-500);
+}
+
+.headerNewTaskButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  height: 100%;
+  width: 90px;
+  padding: 16px;
+
+  border-radius: 8px;
+  border: none;
+
+  background: var(--blue-dark);
+  cursor: pointer;
+
+  color: var(--gray-100);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 140%;
+
+  transition: background 0.1s ease-in-out;
+}
+
+.headerNewTaskButton:hover {
+  background: var(--blue);
+}
+
+.section {
+  margin: 92px auto 0;
+  max-width: 736px;
+  width: 100%;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-bottom: 24px;
+}
+
+.sectionHeader span:last-child {
+  margin-left: 8px;
+  padding: 2px 8px;
+  border-radius: 50%;
+  background: var(--gray-400);
+  color: var(--gray-200);
+
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sectionTasksCreated span:first-child,
+.sectionTasksCompleted span:first-child {
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sectionTasksCompleted span:first-child {
+  color: var(--purple);
+}
