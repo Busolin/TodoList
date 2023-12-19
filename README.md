@@ -2,9 +2,7 @@
 
 ### Preview
 
-<video controls>
-  <source src="src/assets/ToDoList.mp4" type="video/mp4">
-</video>
+![ToDoList](src/assets/ToDoList.gif)
 
 O projeto ToDoList busca trabalhar conceitos dentro do React
 como:
