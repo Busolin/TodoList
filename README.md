@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
+# Sobre o ToDoList:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto ToDoList busca trabalhar conceitos dentro do React
+como:
 
-Currently, two official plugins are available:
+- Estados
+- Imutabilidade do estado
+- Listas e chaves no ReactJS
+- Propriedades
+- Componentização
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Fucionalidades do Projeto
 
-## Expanding the ESLint configuration
+- [x] Adicionar uma nova tarefa
+- [x] Marcar e desmarcar uma tarefa como concluída
+- [x] Remover uma tarefa da listagem
+- [x] Mostrar o progresso de conclusão das tarefas
+- [x] Armazenamento utilizando LocalStorage
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[Projeto disponível](https://projetocss-jesscoder.netlify.app/)
 
-- Configure the top-level `parserOptions` property like this:
+### Linguagens e Ferramentas
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- React
+- Vite
+- Figma
+- LocalStorage
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Layout
+
+### Desktop
+
+<img src="src/assets/initial_screen.png"/>
+
+### Mobile
+
+<img src="src/assets/initial_screen_mobile.png"/>
+
+[Figma do Projeto](<https://www.figma.com/file/ZuNFy2kjrKdlUw0xnPtUui/ToDo-List-%E2%80%A2-Desafio-React-(Copy)?type=design&node-id=0%3A1&mode=dev>)
+
+### Autor
+
+<a href="https://github.com/Busolin">
+<img src="https://github.com/Busolin.png" width="70px" />
+</a>
+
+[Licenca MIT License](http://creativecommons.org/licenses/by)
