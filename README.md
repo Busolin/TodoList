@@ -1,5 +1,9 @@
 # Sobre o ToDoList:
 
+### Preview
+
+![ToDoList](src/assets/ToDoList.gif)
+
 O projeto ToDoList busca trabalhar conceitos dentro do React
 como:
 
@@ -17,7 +21,7 @@ como:
 - [x] Mostrar o progresso de conclusão das tarefas
 - [x] Armazenamento utilizando LocalStorage
 
-[Projeto disponível](https://projetocss-jesscoder.netlify.app/)
+<!-- [Projeto disponível](https://projetocss-jesscoder.netlify.app/) -->
 
 ### Linguagens e Ferramentas
 
