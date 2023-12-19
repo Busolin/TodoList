@@ -37,6 +37,8 @@
   border-radius: 8px;
   border: 1px solid var(--gray-700);
   background: var(--gray-500);
+
+  color: var(--gray-200);
 }
 
 .headerNewTaskButton {
@@ -83,7 +85,7 @@
 .sectionHeader span:last-child {
   margin-left: 8px;
   padding: 2px 8px;
-  border-radius: 50%;
+  border-radius: 8px;
   background: var(--gray-400);
   color: var(--gray-200);
 
@@ -102,4 +104,10 @@
 
 .sectionTasksCompleted span:first-child {
   color: var(--purple);
+}
+
+.tasksWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
