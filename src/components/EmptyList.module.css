@@ -12,6 +12,7 @@
 .emptyListWrapper p {
   margin-top: 16px;
   color: var(--gray-300);
+  text-align: center;
 }
 
 .emptyListWrapper p span {

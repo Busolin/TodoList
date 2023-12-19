@@ -111,3 +111,14 @@
   flex-direction: column;
   gap: 12px;
 }
+
+@media (max-width: 500px) {
+  .header,
+  .section {
+    padding-inline: 16px;
+  }
+
+  .headerNewTaskWrapper {
+    width: 90%;
+  }
+}
